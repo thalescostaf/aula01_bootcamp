@@ -3,8 +3,9 @@ print("_______________")
 
 # Crie um programa que o usuário digita o seu nome e retorna o número de caracteres
 
-print("O numero de caracteres é: ", len(input("Digite o seu nome: ")))
-
+nome = input("Digite o seu nome: ")
+total_caracteres = len(nome)
+print("Seu nome tem ", total_caracteres, " caracteres.")
 
 
 # Crie um programa que o usuário digite 02 valores e apareça a soma
